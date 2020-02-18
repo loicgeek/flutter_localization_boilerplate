@@ -1,0 +1,15 @@
+{
+    "pageNames": {
+        "home": "дом",
+        "settings": "Настройки"
+    },
+    "pages": {
+        "settings": {
+            "general": "генерал",
+            "language": "язык"
+        },
+        "home": {
+            "label_times": " нажимали кнопку это количество раз:"
+        }
+    }
+}

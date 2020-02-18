@@ -1,0 +1,15 @@
+{
+    "pageNames": {
+        "home": "होम",
+        "settings": "सेटिंग"
+    },
+    "pages": {
+        "settings": {
+            "general": "सामान्य",
+            "language": "भाषा"
+        },
+        "home": {
+            "label_times": "आपने कई बार इस बटन को दबाया है:"
+        }
+    }
+}

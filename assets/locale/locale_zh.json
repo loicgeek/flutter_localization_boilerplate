@@ -1,0 +1,15 @@
+{
+    "pageNames": {
+        "home": "欢迎",
+        "settings": "设置"
+    },
+    "pages": {
+        "settings": {
+            "general": "一般",
+            "language": "语言"
+        },
+        "home": {
+            "label_times": "您已按此按钮此次数："
+        }
+    }
+}

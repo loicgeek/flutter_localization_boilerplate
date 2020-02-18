@@ -1,0 +1,15 @@
+{
+    "pageNames": {
+        "home": "Accueil",
+        "settings": "Paramètres"
+    },
+    "pages": {
+        "settings": {
+            "general": "Géneral",
+            "language": "Langue"
+        },
+        "home": {
+            "label_times": "Vous avez appuyé sur le bouton ce nombre de fois :"
+        }
+    }
+}
