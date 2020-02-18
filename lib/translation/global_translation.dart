@@ -30,8 +30,11 @@ class GlobalTranslations {
     String value = '** $key not found';
 
     if (_localizedValues != null) {
-      // Check if the requested [key] is in the cache
+      // Get the translated string
       value = _getLocalizedValue(key, _localizedValues);
+
+      //check if the translation was not found,
+      ///In that case look the translation in the fallback language
       if (value == '** $key not found') {
         if (_fallbackValues != null) {
           value = _getLocalizedValue(key, _fallbackValues);
@@ -39,6 +42,7 @@ class GlobalTranslations {
       }
     }
     if (params != null) {
+      /// If parametes is not null then replace all these params in the string
       value = mapParamsToTranslatedString(value, params);
     }
     return value;
@@ -108,7 +112,7 @@ class GlobalTranslations {
     if (fallbackLanguage != null &&
         _supportedLanguages.indexOf(fallbackLanguage) >= 0) {
       _kFallbackLanguage = fallbackLanguage;
-      // Load the language strings
+      // Load the fallback language strings
       String jsonContent = await rootBundle
           .loadString("assets/locale/locale_$_kFallbackLanguage.json");
       _fallbackValues = json.decode(jsonContent);
