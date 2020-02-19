@@ -1,5 +1,6 @@
 # flutter_localization_boilerplate
 <video src="https://www.facebook.com/loicgeek90/videos/2576796032591340/">
+  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.facebook.com/loicgeek90/videos/2576796032591340/)
 
 A couple of days ago, I was adding localization feature to an app, as I would not like to use any plugin , I wrote it from scratch as usage. So whenever i want to add localization, i write it from scratch and that is repetitive.So i have created this boilerplate to whenever i want to start a new app, I will just clone it and the localizations will be ready to use.
 
